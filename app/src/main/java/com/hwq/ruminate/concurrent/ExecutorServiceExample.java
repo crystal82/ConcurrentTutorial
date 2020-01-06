@@ -11,6 +11,8 @@ public class ExecutorServiceExample {
         //submitCallTest();
         //invokeAnyTest();
         //invokeAllTest();
+
+        throw new RuntimeException("aaaa");
     }
 
     private static void executeTest() {
